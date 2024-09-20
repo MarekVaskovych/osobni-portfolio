@@ -10,7 +10,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: grey;
+  background: #295F98;
   display: flex;
   justify-content: space-between;
   align-items: center;
