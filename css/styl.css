@@ -16,12 +16,15 @@ header {
   align-items: center;
   padding: 10px 50px 0;
 }
-.logo {
+#logo {
   position: relative;
   color: aliceblue;
-  font-size: 2rem;
-  font-weight: 700;
-  text-decoration: none;
+  background: #607274;
+}
+#logo img {
+  width: 45px;
+  height: 40px;
+  background-color: #607274;
 }
 header nav {
   display: flex;
@@ -280,7 +283,7 @@ hr {
 #contact .footer-bottom p {
   font-size: 1.2rem;
   font-weight: 400;
-  color:#503d1b;
+  color:#594621;
 }
 
 
