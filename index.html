@@ -147,9 +147,22 @@
       </div>
       
     </section>
-    <section id="contact" style="--clr: #607274">Kontakt</section>
 
-    <script>
+    <section id="contact" style="--clr: #607274">
+      
+      <div class="contact-container">
+      <form action="" class="contact-form"> 
+        <h2>Kontaktujte mě</h2>
+          
+        <input type="text" name="name" placeholder="Jméno" class="contact-input" required>
+        <input type="email" name="email" placeholder="Zadejte email"  class="contact-input" required>
+        <textarea name="message" placeholder="Zde je prostor pro zprávu" class="contact-input"></textarea>
+        <button type="submit">Odeslat</button>
+      </form>
+    </div>
+    </section>
+
+    <script>  
       let sec = document.querySelectorAll("section");
       let links = document.querySelectorAll("nav a");
 
