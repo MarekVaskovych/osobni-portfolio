@@ -107,7 +107,7 @@ section {
 }
 #skills .container .card {
   box-shadow: 0 5px 10px #607274;
-  border-radius: 5px;
+  border-radius: 25px;
   background: #fff;
   text-align: center;
   padding: 20px 15px;
@@ -128,19 +128,23 @@ section {
 }
 #projects {
   box-sizing: border-box;
+  padding: 15px 9%;
 }
 #projects > h2 {
   text-align: left;
   padding-top: 3%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-bottom: 4px solid #607274;
 }
 #projects .container {
   display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 25px;
 }
 #projects .container .card {
-  box-shadow:0 10px 15px #607274;
-  border-radius: 15px;
+  box-shadow: 0 10px 15px #607274;
+  border-radius: 25px;
   background: #fff;
   text-align: center;
 }
@@ -148,15 +152,25 @@ section {
   font-size: 1.5rem;
   font-weight: 700;
   align-items: center;
+  padding: 15px;
 }
 #projects .container .card img {
-  height: 80px;
+  height: 200px;
 }
 #projects .container .card p {
   font-size: 1.2rem;
   font-weight: 400;
   padding: 10px.0;
   line-height: 1.2;
+}
+#projects .container #item1 {
+  grid-area: 1 / 1 / 6 / 4;
+}
+#projects .container #item2 {
+  grid-area: 1 / 4 / 6 / 7; 
+}
+#projects .container #item3 {
+  grid-area: 1 / 7 / 6 / 10;
 }
 
 section h1 {
