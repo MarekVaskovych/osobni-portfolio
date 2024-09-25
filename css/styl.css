@@ -29,6 +29,7 @@ header {
 header nav {
   display: flex;
   gap: 10px;
+
 }
 header nav a {
   position: relative;
@@ -39,7 +40,7 @@ header nav a {
 }
 header nav a.active {
   background: var(--clr);
-  color: black;
+  color: #4c5f61;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -107,6 +108,7 @@ section {
 #about > h2 {
   margin-bottom: 20px;
   border-bottom: 4px solid #607274;
+  color: #607274;
 }
 #skills {
   box-sizing: border-box;
@@ -126,6 +128,7 @@ section {
   padding-top: 3%;
   margin-bottom: 30px;
   border-bottom: 4px solid #607274;
+  color: #607274;
 }
 
 #skills .container {
@@ -169,6 +172,7 @@ section {
   padding-top: 3%;
   margin-bottom: 50px;
   border-bottom: 4px solid #607274;
+  color: #607274;
 }
 #projects .container {
   display: grid;
@@ -190,6 +194,7 @@ section {
 }
 #projects .container .card img {
   height: 200px;
+  border-radius: 15px;
 }
 #projects .container .card p {
   font-size: 1.2rem;
@@ -227,6 +232,7 @@ section {
   padding-top: 3%;
   margin-bottom: 20px;
   border-bottom: 4px solid #faeed1;
+  color: #faeed1;
 }
 #contact .contact-form {
   display: flex;
