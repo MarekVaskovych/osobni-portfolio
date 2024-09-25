@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  color: #607274;
 }
 header {
   position: fixed;
@@ -261,6 +262,7 @@ section {
 }
 #contact .contact-input::placeholder {
   color: #607274;
+  
 }
 #contact .contact-form button {
   display: flex;
@@ -289,7 +291,7 @@ section {
 }
 hr {
   margin-top: 15%;
-  border: 1.5px solid #c29b59;
+  border: 1.5px solid #faeed1;
 }
 #contact .social-icons {
   display: flex;
@@ -329,7 +331,7 @@ hr {
 #contact .footer-bottom p {
   font-size: 1.2rem;
   font-weight: 400;
-  color: #594621;
+  color: #faeed1;
 }
 
 section h1 {
@@ -352,11 +354,12 @@ section p {
 }
 .zde {
   text-decoration: none;
-  color: black;
+  
 }
 
 .zde:hover {
   text-decoration: none;
-  color: black;
   background-color: rgb(188, 182, 130);
+  border: #c29b59;
+  border-radius: 25px;
 }
