@@ -111,6 +111,31 @@ section {
   border-bottom: 4px solid #607274;
   color: #607274;
 }
+#about .container-about{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+}
+#about .container-about .card-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  border: #d7be92;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 25px;
+}
+#about .container-about .card-photo {
+  display: flex;
+  border-radius: 25px;
+}
+#about .container-about .card-photo img {
+  width: 500px;
+  height: fit-content;
+  border-radius: 25px;
+}
+
 #skills {
   box-sizing: border-box;
   padding: 15px 9%;
@@ -262,7 +287,7 @@ section {
 }
 #contact .contact-input::placeholder {
   color: #607274;
-  
+  padding: 15px;
 }
 #contact .contact-form button {
   display: flex;
@@ -305,7 +330,7 @@ hr {
   text-decoration: none;
   background-color: #faeed1;
   padding: 15px;
-  border-radius: 50%;
+  border-radius: 30px;
   margin: 10px;
 }
 #contact .social-icons a i {
