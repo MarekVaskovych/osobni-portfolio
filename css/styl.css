@@ -90,16 +90,34 @@ section {
     rgba(250, 238, 209, 1) 72%
   );
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   #home {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+  }
+  #home .home-buttons {
+    display: flex ;
+    flex-direction: column;
   }
 }
+
+#home .github-button {
+  text-decoration: none;
+  border: 2px solid #a49c8f;
+  border-radius: 500px;
+  padding: 15px;
+  background: rgb(96, 114, 116);
+  color: #c29b59;
+  
+}
+#home .github-button:hover {
+  background: rgb(93, 64, 10);
+  color: aqua;
+}
+
 #about {
   padding: 15%;
   box-sizing: border-box;
