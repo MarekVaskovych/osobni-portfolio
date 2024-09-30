@@ -30,7 +30,6 @@ header {
 header nav {
   display: flex;
   gap: 10px;
-
 }
 header nav a {
   position: relative;
@@ -91,6 +90,16 @@ section {
     rgba(250, 238, 209, 1) 72%
   );
 }
+@media (max-width: 900px) {
+  #home {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
 #about {
   padding: 15%;
   box-sizing: border-box;
@@ -111,14 +120,13 @@ section {
   border-bottom: 4px solid #607274;
   color: #607274;
 }
-#about .container-about{
+#about .container-about {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   gap: 20px;
-  
 }
 #about .container-about .card-about {
-  display: grid ;
+  display: grid;
   flex-direction: column;
   justify-content: flex-start;
   text-align: justify;
@@ -126,19 +134,17 @@ section {
   background-color: #fff;
   border-radius: 25px;
   padding: 25px;
-  box-shadow:0 5px 10px #4c5f61;
- 
+  box-shadow: 0 5px 10px #4c5f61;
 }
 #about .container-about .card-photo {
   display: flex;
   border-radius: 25px;
-  
 }
 #about .container-about .card-photo img {
   width: 450px;
   height: fit-content;
   border-radius: 25px;
-  box-shadow:0 5px 10px #4c5f61;
+  box-shadow: 0 5px 10px #4c5f61;
 }
 
 #skills {
@@ -384,7 +390,6 @@ section p {
 }
 .zde {
   text-decoration: none;
-  
 }
 
 .zde:hover {
