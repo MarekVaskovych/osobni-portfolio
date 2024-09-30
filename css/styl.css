@@ -112,28 +112,33 @@ section {
   color: #607274;
 }
 #about .container-about{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   gap: 20px;
+  
 }
 #about .container-about .card-about {
-  display: flex;
+  display: grid ;
   flex-direction: column;
   justify-content: flex-start;
-  text-align: start;
+  text-align: justify;
   border: #d7be92;
   background-color: #fff;
   border-radius: 25px;
   padding: 25px;
+  box-shadow:0 5px 10px #4c5f61;
+ 
 }
 #about .container-about .card-photo {
   display: flex;
   border-radius: 25px;
+  
 }
 #about .container-about .card-photo img {
-  width: 500px;
+  width: 450px;
   height: fit-content;
   border-radius: 25px;
+  box-shadow:0 5px 10px #4c5f61;
 }
 
 #skills {
