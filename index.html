@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="cz">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styl.css" type="text/css" />
-    <link rel="shortcut icon" href="images/dog.ico.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Marek Vaškových</title>
-  </head>
-  <body>
-    <header>
-      <div id="logo">
-        <a href="#home"><img src="images/finallogomv.png" alt="Logo"></a>
-        
-    </div>
-      <nav>
-        <a href="#home" style="--clr: #faeed1" class="active">Home</a>
-        <a href="#about" style="--clr: #FAEED1">O mně</a>
-        <a href="#skills" style="--clr: #d7be92">Dovednosti</a>
-        <a href="#projects" style="--clr: #b2a59b">Reference</a>
-        <a class="contact-button" href="#contact" style="--clr: #607274">Kontakt</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--<link rel="stylesheet" href="css/styl.css" type="text/css" />-->
+  <link rel="stylesheet" href="css/new-style.css" type="text/css" />
+  <link rel="stylesheet" href="css/mediaqueries.css" type="text/css">
+  <link rel="shortcut icon" href="images/dog.ico.png" />
+  <title>Marek Vaškových</title>
+</head>
 
-    <section id="home" style="--clr: #faeed1">
-      <h1>Marek Vaškových</h1>
-      <h3> Web Desinger | Junior Frontend & Backend Developer | SW Tester</h3>
-      <div class="home-buttons">
-        <a class="github-button" type="button" href="https://github.com/MarekVaskovych">GitHub</a>
-        <a class="github-button" type="button" href="https://www.linkedin.com/in/marek-va%C5%A1kov%C3%BDch-581767326/">LinkedIn</a>
+<body>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="images/finallogomv.png" alt="Logo">
       </div>
-     
-    </section>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">O mně</a></li>
+          <li><a href="#skills">Dovednosti</a></li>
+          <li><a href="#projects">Reference</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="images/finallogomv.png" alt="Logo">
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">O mně</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Dovednosti</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Reference</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <section id="home" style="--clr: #faeed1">
+    <div class="section-text">
+      <h1 class="title">Marek Vaškových</h1>
+      <p class="section-text-2"> Web Desinger | Junior Frontend & Backend Developer | SW Tester</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('')">
+          Stáhnout CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Kontakt
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="images/linkedin.png" alt="My Linkedin profile" class="icon"
+          onclick="location.href='https://www.linkedin.com'" />
+        <img src="images/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://www.github.com'" />
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- SEKCE INFO O MNĚ
 
     <section id="about" style="--clr: #ded0b6">
       <h2>
@@ -52,7 +88,7 @@
               Ve volném čase rád cestuju, objevuju, hraju na kytaru, fotbal či jiný kolektivní sport, rád trávím čas s přáteli a především se svoji milovanou ženou.
             </p>
             <p>
-              Mým hlavním koníčkem je však <strong>programování</strong>!
+              Mým hlavním koníčkem je však <strong> programování</strong>!
             </p>
           </p>
         </p>
@@ -61,13 +97,11 @@
             <img src="images/profile_photo.png" alt="Marek Vaškových">
           </div>
       </div>
-      
-      
-        
-      
     </section>
-    
-    
+    -->
+
+  <!-- SEKCE DOVEDNOSTI
+
     <section id="skills" style="--clr: #d7be92">
       <h2>Dovednosti</h2>
       <div class="container">
@@ -98,8 +132,10 @@
           <small>středně pokročilý</small>
         </div>
       </div>
-    </section>
+    </section>-->
 
+  <!-- SEKCE REFERENCE
+     
     <section id="projects" style="--clr: #b2a59b">
       <h2>Reference</h2>
       <div class="container">
@@ -131,11 +167,12 @@
           </div>
         </div>
       </div>
-      
     </section>
+    -->
+
+  <!-- SEKCE KONTAKT
 
     <section id="contact" style="--clr: #607274">
-      
       <div class="contact-container">
       <form action="" class="contact-form"> 
         <h2>Zůstaňme v kontaktu</h2>
@@ -162,28 +199,9 @@
       </div>
     </footer>
     </section>
+    -->
 
-    <script>  
-      let sec = document.querySelectorAll("section");
-      let links = document.querySelectorAll("nav a");
+  <script src="script.js"></script>
+</body>
 
-      window.onscroll = () => {
-        sec.forEach((section) => {
-          let top = window.scrollY;
-          let offset = section.offsetTop - 60;
-          let height = section.offsetHeight;
-          let id = section.getAttribute("id");
-
-          if (top >= offset && top < offset + height) {
-            links.forEach((link) => {
-              link.classList.remove("active");
-              document
-                .querySelector("nav a[href*=" + id + "]")
-                .classList.add("active");
-            });
-          }
-        });
-      };
-    </script>
-  </body>
 </html>

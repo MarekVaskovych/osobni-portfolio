@@ -99,7 +99,7 @@ section {
     align-items: center;
   }
   #home .home-buttons {
-    display: flex ;
+    display: flex;
     flex-direction: column;
   }
 }
@@ -111,7 +111,6 @@ section {
   padding: 15px;
   background: rgb(96, 114, 116);
   color: #c29b59;
-  
 }
 #home .github-button:hover {
   background: rgb(93, 64, 10);
@@ -133,6 +132,15 @@ section {
     rgba(250, 238, 209, 1) 72%
   );
 }
+@media (max-width: 600px) {
+  #about .container-about {
+    display: flex;
+    flex-direction: row;
+  }
+  #about .card-photo {
+    order: -1;
+  }
+}
 #about > h2 {
   margin-bottom: 20px;
   border-bottom: 4px solid #607274;
@@ -140,11 +148,10 @@ section {
 }
 #about .container-about {
   display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-  gap: 20px;
+  flex-direction: row;
 }
 #about .container-about .card-about {
-  display: grid;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: justify;
@@ -154,9 +161,12 @@ section {
   padding: 25px;
   box-shadow: 0 5px 10px #4c5f61;
 }
+#about .container-about .card-about > p {
+  padding: 2%;
+}
 #about .container-about .card-photo {
   display: flex;
-  border-radius: 25px;
+  border-radius: 25%;
 }
 #about .container-about .card-photo img {
   width: 450px;
