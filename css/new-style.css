@@ -137,7 +137,7 @@ section {
 .section-container {
   display: flex;
 }
-/*PROFILE SECTION (!HOME!)*/
+/*PROFILE SECTION HOME*/
 #home {
   display: flex;
   justify-content: center;
@@ -291,4 +291,25 @@ article {
 }
 article .icon {
   cursor: default;
+}
+/*PROJECTS SECTION*/
+#projects {
+  position: relative;
+}
+.color-container {
+  color: #52b0ba;
+  background: #bed6d9;
+}
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+.project-btn {
+  color: black;
+  border-color:#3cd2e3;
 }
