@@ -82,10 +82,10 @@
   }
   .section-pic-container {
     width: auto;
-    height: 46vh;
+    height: 46vw;
     justify-content: center;
   }
-  .section-text-p2 {
+  .section-text-2 {
     font-size: 1.25rem;
   }
   .title {
