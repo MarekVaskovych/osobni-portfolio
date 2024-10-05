@@ -260,7 +260,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: whitesmoke;
+  background: #6072740c;
   border-radius: 2rem;
   border: #607274 0.1rem solid;
   border-color: #607274;
@@ -274,6 +274,9 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+.text-container p {
+  padding: 0.7rem;
 }
 /*SKILLS SECTION*/
 #skills {
