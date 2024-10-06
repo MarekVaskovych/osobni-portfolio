@@ -1,16 +1,17 @@
-# osobní webové portfolio 🖥️
-Osobní webové portfolio 
+# Osobní webové portfolio 🖥️
 
 ## Použité technologie 🎷
--HTML
--CSS
--Vanilla JavaScript
--Responzivita
+- HTML
+- CSS
+- Vanilla JavaScript
+- Responzivita
+- VS Code
+
 
 ## Co mě projekt naučil 📖
--Vytvořit scrollable stránku
--plnou responsivitu díky použití flexboxu
--Reprezentativně vypadající stránky díky sjednoceným barvám a prvkům na stránce
+- Vytvořit scrollable stránku
+- Plnou responsivitu díky použití flexboxu
+- Reprezentativně vypadající stránky díky sjednoceným barvám a prvkům na stránce
 
 ### Zde je odkaz: https://mara-ve-portfolio.netlify.app/ 
 
