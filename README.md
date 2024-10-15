@@ -1,20 +1,23 @@
 # Osobní webové portfolio 🖥️
 
+## Update:
+- 2024-10-15: Přidal jsem do sekce "Reference" novou referenci
+
 ## Použité technologie 🎷
 - HTML
 - CSS
 - Vanilla JavaScript
 - Responzivita- VS Code
 
-## Update:
-- 2024-10-15: Přidal jsem do sekce "Reference" novou referenci
+### Zde je odkaz: https://mara-ve-portfolio.netlify.app/ 
+
+
 
 ## Co mě projekt naučil 📖
 - Vytvořit scrollable stránku
 - Plnou responsivitu díky použití flexboxu
 - Reprezentativně vypadající stránky díky sjednoceným barvám a prvkům na stránce
 
-### Zde je odkaz: https://mara-ve-portfolio.netlify.app/ 
 
 
 ### Behind the scenes: 🥂
