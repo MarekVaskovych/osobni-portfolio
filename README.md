@@ -4,9 +4,10 @@
 - HTML
 - CSS
 - Vanilla JavaScript
-- Responzivita
-- VS Code
+- Responzivita- VS Code
 
+## Update:
+- 2024-10-15: Přidal jsem do sekce "Reference" novou referenci
 
 ## Co mě projekt naučil 📖
 - Vytvořit scrollable stránku
